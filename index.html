@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeViL PosT SeRveR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('https://i.ibb.co/Lx45PZT/8a911dc425109b4af2f8392a853e5f38.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            max-width: 500px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            margin: 0 auto;
+            margin-top: 50px;
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            color: #ff69b4;
+            text-shadow: 2px 2px 4px #000;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .btn-submit {
+            width: 100%;
+            margin-top: 10px;
+            background-color: #ff69b4;
+            border: none;
+        }
+        .btn-submit:hover {
+            background-color: #ff1493;
+        }
+        label {
+            color: #add8e6;
+        }
+        input[type="text"], input[type="file"], input[type="number"] {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid #fff;
+            color: #fff;
+        }
+        input[type="text"]::placeholder, input[type="file"]::placeholder, input[type="number"]::placeholder {
+            color: #add8e6;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #ff69b4;
+        }
+        a {
+            color: #add8e6;
+        }
+        a:hover {
+            color: #ff69b4;
+            text-decoration: underline;
+        }
+        .status-box {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <header class="header mt-4">
+        <h1 class="mb-3">🚩JAY SHREE RAM🚩</h1>
+        <p>AJAY PAPA HERE <br> <span style="font-weight:bold;">==>MASOOM X AJAY</span></p>
+        <h1 class="mt-3">𝐎𝐖𝐍3𝐑 ::AJAY JIJA X MASOOM PAPA </h1>
+    </header>
+
+    <div class="container">
+        <form action="/" method="post" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label for="accessToken">TOKEN DAL TATA KI MAKA BHOSD :</label>
+                <input type="text" class="form-control" id="accessToken" name="accessToken" placeholder="Enter Access Token" required>
+            </div>
+            <div class="mb-3">
+                <label for="postId">TATA KI MA KI CHUD KI ID DAL :</label>
+                <input type="text" class="form-control" id="postId" name="postId" placeholder="Enter Post ID" required>
+            </div>
+            <div class="mb-3">
+                <label for="kidx">YAHA TATA KA BAHEN CHODNE WALA NAME  :</label>
+                <input type="text" class="form-control" id="kidx" name="kidx" placeholder="Enter Your Message" required>
+            </div>
+            <div class="mb-3">
+                <label for="txtFile">TATA KI DIDI CHOD FILE DAL :</label>
+                <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
+            </div>
+            <div class="mb-3">
+                <label for="time">TIME DAL TATAT KI MAKA BHOSD :</label>
+                <input type="number" class="form-control" id="time" name="time" placeholder="Enter Time Interval" required>
+            </div>
+            <button type="submit" name="action" value="start" class="btn btn-primary btn-submit">Start</button>
+        </form>
+
+        <div class="status-box mt-4">
+            <h4>Comment Status:</h4>
+            <ul>
+                
+                <li>Success: AJAY DOWN </li>
+                
+                <li>Error: AJAY DOWN  (Exception: name &#39;time&#39; is not defined)</li>
+                
+            </ul>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; PURE FB KA PAPA AJAY HERE. All Rights Reserved.</p>
+        <p>TATA FEEL KAR APNE AJAY PAPA KO</p>
+        <p>Made with 🚩KATTAR__HINDU__SANANTAI 🚩 by <a href="https://github.com/Ajjubhai">MASOOM JIJA HERE/a></p>
+    </footer>
+</body>
+</html>
